@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+
+#spring:
+#    data:
+#        elasticsearch:
+#            cluster-name: my-application
+#            cluster-nodes: 192.168.0.155:9300
+
+logging:
+  level:
+    org:
+      springframework:
+        boot:
+          autoconfigure: ERROR
+

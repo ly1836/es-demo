@@ -1,0 +1,31 @@
+// PUT /data
+{
+  "settings": {
+    "number_of_shards": 3,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "user": {
+      "properties": {
+        "name": {
+          "type": "text",
+          "analyzer": "ik_max_word"
+        },
+        "address": {
+          "type": "text",
+          "analyzer": "ik_max_word"
+        },
+        "age": {
+          "type": "integer"
+        },
+        "interests": {
+          "type": "text",
+          "analyzer": "ik_max_word"
+        },
+        "birthday": {
+          "type": "date"
+        }
+      }
+    }
+  }
+}

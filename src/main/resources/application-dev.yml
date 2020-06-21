@@ -1,0 +1,8 @@
+
+
+es:
+  host: 192.168.0.155
+  prot: 9200
+  clusterName: my-application
+  user: elastic
+  password: 123456
